@@ -1,7 +1,3 @@
-/* * {
-  width: 1920px;
-  margin: 0;
-} */
 
 h1, h2, h3, h4, h5, h6{
   padding: 0;
@@ -193,17 +189,11 @@ h1, h2, h3, h4, h5, h6{
   color: #545454;
   margin-top: 80px;
   text-align: center;
-  /* margin-bottom: 60px; */
 }
 
 .main__our-friend-main{
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.main__our-friend-card:last-child{
-  margin-right: 0;
 }
 
 .main__our-friend-card{
@@ -214,7 +204,10 @@ h1, h2, h3, h4, h5, h6{
   flex-direction: column;
   align-items: center;
   border-radius: 9px;
-  margin-right: 90px;
+}
+
+.margin-between{
+  margin: 0 90px;
 }
 
 .main__our-friend-card:hover{
@@ -222,35 +215,27 @@ h1, h2, h3, h4, h5, h6{
   background-color: #FFFFFF;
 }
 
-.main__our-friend-main::after{
+.main__our-friend-nav{
+  background-color: #F6F6F6;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  content: "→";
   width: 52px;
   height: 52px;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
-  margin-left: 53px;
-  /* background-color: #FDDCC4; */
 }
 
-.main__our-friend-main::before{
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  content: "←";
-  width: 52px;
-  height: 52px;
-  border: 2px solid #F1CDB3;
-  border-radius: 100px;
+.main__our-friend-nav:first-child{
   margin-right: 53px;
-  /* background-color: #FDDCC4; */
 }
 
-.main__our-friend-main:before:hover{
+.main__our-friend-nav:last-child{
+  margin-left: 53px;
+}
+
+.main__our-friend-nav:hover{
   background-color: #FDDCC4;
 }
 
@@ -351,7 +336,6 @@ h1, h2, h3, h4, h5, h6{
 .main__help-info{
   width: 1026px;
   margin-top: 60px;
-  /* margin-left: 87px; */
 }
 
 .main__help-list{
@@ -362,10 +346,6 @@ h1, h2, h3, h4, h5, h6{
   margin: 0;
   justify-content: center;
   margin-top: 60px;
-}
-
-.main__help-list-element{
-  
 }
 
 .main__help-list-margin-top{
@@ -403,7 +383,6 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  /* margin-bottom: 100px; */
 }
 
 .main__donation-content{
