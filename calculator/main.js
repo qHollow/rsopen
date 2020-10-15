@@ -8,7 +8,7 @@ const previous = document.querySelector("#data-previous-operand");
 
 let currentOperation = 0;
 let readyReset = false;
-
+      
 // Добавляем события нажатия цифр
 for(let i = 0; i < numbers.length; i++){
   let num = numbers[i];
