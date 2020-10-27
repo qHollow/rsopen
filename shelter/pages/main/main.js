@@ -26,10 +26,7 @@ for(let i = 0; i < card.length; i++){
 window.onclick = function(event) {
   if (event.target == modalWparrer) {
     modalWparrer.style.display = "none";
+    document.body.style.overflowY = '';
   }
 }
 
-document.location.href = "https://www.yandex.ru";
-
-//run
-closeModal();

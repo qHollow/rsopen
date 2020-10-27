@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .main__about-shelter-info{
+  margin-top: 94px;
   width: 380px;
   margin-left: 120px;
 }
@@ -556,6 +557,7 @@ h1, h2, h3, h4, h5, h6{
 /* modal window */
 
 .modal-wrapper{
+  display: none;
   position: fixed;
   left: 0;
   top: 0;
@@ -668,5 +670,17 @@ h1, h2, h3, h4, h5, h6{
   font-size: 15px;
   line-height: 110%;
   letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.modal-list-content-info{
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 110%;
+
+  letter-spacing: 0.06em;
+
   color: #000000;
 }
