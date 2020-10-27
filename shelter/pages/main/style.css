@@ -292,6 +292,17 @@ h1, h2, h3, h4, h5, h6{
 
 
 .main__our-friend-button-footer{
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;  
+  letter-spacing: 0.06em;
+  color: #292929;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
   background-color: #F1CDB3;
   border-radius: 100px;
   width: 261px;
@@ -543,6 +554,19 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* modal window */
+
+.modal-wrapper{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow-y: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 1;
+}
+
 .modal{
   position: fixed;
 
@@ -555,7 +579,7 @@ h1, h2, h3, h4, h5, h6{
   border-radius: 9px;
   width: 900px;
   height: 500px;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .modal-close{
@@ -567,7 +591,11 @@ h1, h2, h3, h4, h5, h6{
   background-color: transparent;
   border: 2px solid #F1CDB3;
   border-radius: 50%;
+}
+
+.modal-close:hover{
   cursor: pointer;
+  background-color: #FDDCC4;
 }
 
 .modal-close::before{
