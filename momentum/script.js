@@ -91,16 +91,16 @@ function fillArray(){
   }
   img = img.map((item, i) => {
     if(i >= 6 && i < 12){
-      return `../assets/images/morning/${addZero(img[i])}.jpg`
+      return `./assets/images/morning/${addZero(img[i])}.jpg`
     }
     else if (i >= 12 && i < 18){
-      return `../assets/images/day/${addZero(img[i])}.jpg`
+      return `./assets/images/day/${addZero(img[i])}.jpg`
     }
     else if(i >= 18 && i < 24){
-      return `../assets/images/evening/${addZero(img[i])}.jpg`
+      return `./assets/images/evening/${addZero(img[i])}.jpg`
     }
     else{
-      return `../assets/images/night/${addZero(img[i])}.jpg`
+      return `./assets/images/night/${addZero(img[i])}.jpg`
     }
   });
   prevHour = new Date().getHours();
