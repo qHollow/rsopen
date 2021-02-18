@@ -29,7 +29,5 @@ window.onclick = function(event) {
   }
 }
 
-document.location.href = "https://www.yandex.ru";
-
 //run
 closeModal();
