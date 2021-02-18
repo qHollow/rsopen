@@ -98,7 +98,7 @@ h2 {
   height: 36px;
   margin-right: 10px;
   background-repeat: no-repeat;
-  background-image: url(/assets/icons/thermometer.svg);
+  background-image: url(../assets/icons/thermometer.svg);
 }
 
 .temperature-feels::before{
@@ -108,7 +108,7 @@ h2 {
   /* fill: #4f4fe3; */
   margin-right: 10px;
   background-repeat: no-repeat;
-  background-image: url(/assets/icons/gauge.svg);
+  background-image: url(../assets/icons/gauge.svg);
 }
 
 .humidity::before{
@@ -118,7 +118,7 @@ h2 {
   /* fill: #4f4fe3; */
   margin-right: 10px;
   background-repeat: no-repeat;
-  background-image: url(/assets/icons/humidity.svg);
+  background-image: url(../assets/icons/humidity.svg);
 }
 
 .wind::before{
@@ -128,7 +128,7 @@ h2 {
   margin-top: 10px;
   /* fill: #4f4fe3; */
   background-repeat: no-repeat;
-  background-image: url(/assets/icons/wind.svg);
+  background-image: url(../assets/icons/wind.svg);
 }
 
 .weather-icon{
